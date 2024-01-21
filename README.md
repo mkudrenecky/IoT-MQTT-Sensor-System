@@ -1,53 +1,59 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10456138)
-# The Project
+# IoT Data Monitoring App
 
-The project provides you an opportunity to build upon the foundational knowledge acquired in this course. It is designed to help you develop an advanced understanding of software engineering principles, tools, and techniques using structured requirements gathering and analysis, software development process, design patterns, software architecture, and software testing.  You will also need to consider your development methodology (don’t use waterfall), software metrics, and software quality assurance.
+## Demo
 
-As a team, you will select a project, develop a set of requirements, conduct a formal analysis of the project, develop an architecture, and then using TDD and an Agile workflow, iterate and develop your projects.  During your project, you MUST consider design patterns and anti-patterns, TDD, dockerization, and CI/CD.  The goal is not necessarily to build a complex system, but to practice and become comfortable with the techniques, be able to analyze and decompose a problem, and incrementally develop and deploy a solution using a branching workflow.
+![Alt text](IoTdemo.gif)
 
-Internally, within your team, you are free to manage efforts and tasks with the understanding that everyone is expected to contribute equally in some fashion.  During the project, you will have the chance to confidentially conduct peer reviews using the credit-earned model (see document on Canvas regarding this) at a number of key points.   Your individual project grade will be impacted using the results of the peer evaluation.   The key point is that if you don’t contribute to the project, your mark will reflect this.  This will be discussed in class.
+## The Project
+
+The project provides you an opportunity to build upon the foundational knowledge acquired in this course. It is designed to help you develop an advanced understanding of software engineering principles, tools, and techniques using structured requirements gathering and analysis, software development process, design patterns, software architecture, and software testing. You will also need to consider your development methodology (don’t use waterfall), software metrics, and software quality assurance.
+
+As a team, you will select a project, develop a set of requirements, conduct a formal analysis of the project, develop an architecture, and then using TDD and an Agile workflow, iterate and develop your projects. During your project, you MUST consider design patterns and anti-patterns, TDD, dockerization, and CI/CD. The goal is not necessarily to build a complex system, but to practice and become comfortable with the techniques, be able to analyze and decompose a problem, and incrementally develop and deploy a solution using a branching workflow.
+
+Internally, within your team, you are free to manage efforts and tasks with the understanding that everyone is expected to contribute equally in some fashion. During the project, you will have the chance to confidentially conduct peer reviews using the credit-earned model (see document on Canvas regarding this) at a number of key points. Your individual project grade will be impacted using the results of the peer evaluation. The key point is that if you don’t contribute to the project, your mark will reflect this. This will be discussed in class.
 
 You must have:
 
-* Unit tests and integration tests to ensure code quality and functionality
-* A deployment pipeline using CI/CD to automatically test and deploy changes to the codebase
-* Identified what design patterns you are using and describe why
-* Dockerized deployment
-* Continual and ongoing work using TDD 
-*A team between 3-5 people (no more, no less) - target for 4
+- Unit tests and integration tests to ensure code quality and functionality
+- A deployment pipeline using CI/CD to automatically test and deploy changes to the codebase
+- Identified what design patterns you are using and describe why
+- Dockerized deployment
+- Continual and ongoing work using TDD
+  \*A team between 3-5 people (no more, no less) - target for 4
 
 ## Project Goals:
 
-* To deepen the students' understanding of software engineering principles, tools, and techniques.
-* To enable students to apply software engineering principles, tools, and techniques to the development of complex software systems.
-* To introduce students to agile development methodologies, software metrics, and software quality assurance.
-* To foster collaboration and teamwork among students in the development of software systems.
+- To deepen the students' understanding of software engineering principles, tools, and techniques.
+- To enable students to apply software engineering principles, tools, and techniques to the development of complex software systems.
+- To introduce students to agile development methodologies, software metrics, and software quality assurance.
+- To foster collaboration and teamwork among students in the development of software systems.
 
 ## Project Objectives:
 
 By the end of this project, students will be able to:
 
-* Apply the software development process model, to the development of a software system
-* Design software systems using appropriate design patterns and principles
-* Develop software architectures for complex software systems
-* Use software testing techniques to ensure the quality of software systems
-* Apply agile development methodologies to the development of software systems
-* Apply software metrics to evaluate the quality of software systems
-* Develop software quality assurance plans to ensure the quality of software systems
-* Apply and develop a CI/CD pipeline for automated testing and deployment
-* Utilize dockerization to containerize your application
-* Work collaboratively in teams to develop software systems
-* Peer Evaluation: see Peer Evaluation
+- Apply the software development process model, to the development of a software system
+- Design software systems using appropriate design patterns and principles
+- Develop software architectures for complex software systems
+- Use software testing techniques to ensure the quality of software systems
+- Apply agile development methodologies to the development of software systems
+- Apply software metrics to evaluate the quality of software systems
+- Develop software quality assurance plans to ensure the quality of software systems
+- Apply and develop a CI/CD pipeline for automated testing and deployment
+- Utilize dockerization to containerize your application
+- Work collaboratively in teams to develop software systems
+- Peer Evaluation: see Peer Evaluation
 
 ## Evaluation:
 
-**Milestone #1** – Team Formation and Planning Framework (March 7th) – Set up and join your team.   Let me know who is on your team (2%)
+**Milestone #1** – Team Formation and Planning Framework (March 7th) – Set up and join your team. Let me know who is on your team (2%)
 
-**Milestone #2** – Project Description and Requirements (March 13th).  A summary of “What” your project is, who the users are, and “What” your project will do (functional, non-functional requirements, etc) including use cases (properly dressed with the appropriate level of abstraction.   Consider the tools (proto-personal, journey lines)(13%)
+**Milestone #2** – Project Description and Requirements (March 13th). A summary of “What” your project is, who the users are, and “What” your project will do (functional, non-functional requirements, etc) including use cases (properly dressed with the appropriate level of abstraction. Consider the tools (proto-personal, journey lines)(13%)
 
-**Milestone #3** – Formal Analysis and Architecture (March 19th).  
- * Use the appropriate models to present the details about what your system will look like, what it will do/be composed of and what your architecture is. (20%)
- * Test plan (5%)
+**Milestone #3** – Formal Analysis and Architecture (March 19th).
+
+- Use the appropriate models to present the details about what your system will look like, what it will do/be composed of and what your architecture is. (20%)
+- Test plan (5%)
 
 **Milestone #4** – Testing/R&R Report/Release #1 (March 26th) (10%)
 
@@ -63,15 +69,15 @@ By the end of this project, students will be able to:
 
 **Discord Clone:** This project involves the development of a web-based platform for online communication and collaboration, similar to the popular chat app, Discord. The platform should incorporate the Observer design pattern to notify users of new messages, and the Mediator design pattern to manage communication between users and channels. The platform should also implement the Singleton design pattern to ensure that only one instance of the chat server is running at any given time, and the Command design pattern to enable users to execute commands (e.g. change username, join channel). Additionally, the platform should incorporate Continuous Integration and Deployment (CI/CD) and automated testing to ensure that updates are deployed quickly and without errors.
 
-**iClicker Clone:** This project involves the development of a web-based platform for classroom polling and feedback. The platform should allow instructors to pose questions to students and receive instant feedback. The platform should incorporate the Observer design pattern to notify the instructor of student responses, and the Facade design pattern to simplify the interface between the user and the underlying system.  Additionally, the system should incorporate Continuous Integration and Deployment (CI/CD) and automated testing and deploy quickly and without errors. 
+**iClicker Clone:** This project involves the development of a web-based platform for classroom polling and feedback. The platform should allow instructors to pose questions to students and receive instant feedback. The platform should incorporate the Observer design pattern to notify the instructor of student responses, and the Facade design pattern to simplify the interface between the user and the underlying system. Additionally, the system should incorporate Continuous Integration and Deployment (CI/CD) and automated testing and deploy quickly and without errors.
 
-**Online Marketplace Application:** This project involves the development of a web-based application that facilitates online transactions between buyers and sellers. The application should incorporate the MVC (Model-View-Controller) design pattern to separate the concerns of the application into different components. The application should also implement the Observer design pattern to notify users of updates to their transactions.  Additionally, the system should incorporate Continuous Integration and Deployment (CI/CD) and automated testing.
+**Online Marketplace Application:** This project involves the development of a web-based application that facilitates online transactions between buyers and sellers. The application should incorporate the MVC (Model-View-Controller) design pattern to separate the concerns of the application into different components. The application should also implement the Observer design pattern to notify users of updates to their transactions. Additionally, the system should incorporate Continuous Integration and Deployment (CI/CD) and automated testing.
 
 **IoT Sensor Monitoring System:** This project involves the development of a system for monitoring and analyzing data from IoT sensors using MQTT. The system should incorporate the Publish-Subscribe design pattern to enable sensors to publish data and clients to subscribe to relevant data streams. The system should also implement the Chain of Responsibility design pattern to manage and filter data streams, and the Adapter design pattern to enable different types of sensors to communicate with the system. Additionally, the system should incorporate Continuous Integration and Deployment (CI/CD) and automated testing to ensure that data is collected accurately and without errors. The system should provide real-time visualizations of sensor data and alert users when thresholds are exceeded.
 
 # IoT Sensor Monitoring System
 
-Our IoT Sensor Monitoring system is an application that allows users to take advantage of the IoT and the MQTT network in order to monitor sensors in BC Parks without the need for additional set up beyond account creation and the subscription to their data-streams of choice. This application will take on the roles of the web-broker and the client in the MQTT protocol entities, thereby simplifying the data acquisition process for the user. Our system will be subscribed to the sensors set up in BC Parks, the data from which will be stored in our database. The user can choose to view data from specific sensors from within that set, and can make choices on how that data is represented and set thresholds on the data streams which, if exceeded, will send them a notification. Our system will be data agnostic, meaning it will be able to support most data formats, allowing users to select from a wide variety of sensors and to have that data represented in ways relevant to the user for that sensor type, with that customizability further expanded by the choices the user can make upon selecting which data to view. In other words, the data type and the parameters set by the user will determine the graphical representation of that data. Users will be able to create an account, set which data streams are of interest and how they want that data to be displayed in its “widget” on their home page. After the account is created, users will be able to modify the widgets of their home page, both in the way the data is represented and by removing or adding data streams. 
+Our IoT Sensor Monitoring system is an application that allows users to take advantage of the IoT and the MQTT network in order to monitor sensors in BC Parks without the need for additional set up beyond account creation and the subscription to their data-streams of choice. This application will take on the roles of the web-broker and the client in the MQTT protocol entities, thereby simplifying the data acquisition process for the user. Our system will be subscribed to the sensors set up in BC Parks, the data from which will be stored in our database. The user can choose to view data from specific sensors from within that set, and can make choices on how that data is represented and set thresholds on the data streams which, if exceeded, will send them a notification. Our system will be data agnostic, meaning it will be able to support most data formats, allowing users to select from a wide variety of sensors and to have that data represented in ways relevant to the user for that sensor type, with that customizability further expanded by the choices the user can make upon selecting which data to view. In other words, the data type and the parameters set by the user will determine the graphical representation of that data. Users will be able to create an account, set which data streams are of interest and how they want that data to be displayed in its “widget” on their home page. After the account is created, users will be able to modify the widgets of their home page, both in the way the data is represented and by removing or adding data streams.
 
 ## Users:
 
@@ -80,11 +86,11 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## Function Requirements:
 
-- Data collection  - collect data from IoT devices
+- Data collection - collect data from IoT devices
 - Notification/Alerts - alert users when thresholds are exceeded or encountered
 - Process data - provide meaningful results from collected data
-    - Display data (graphs, etc)
-    - Export data in relevant formats (csv, JSON, etc)
+  - Display data (graphs, etc)
+  - Export data in relevant formats (csv, JSON, etc)
 - Store Data- store the collected data in a database
 - Remote Monitoring - User can choose which sensors they wish to monitor
 - Requires account to view data
@@ -92,12 +98,12 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 ## Non-functional Requirements:
 
 - Secure Data - Ensure privacy/security of data collected from sensors
-    - Data is collected, handled, and stored in a secure and private manner
+  - Data is collected, handled, and stored in a secure and private manner
 - Usability of System - Implement user interface that is intuitive and easy to use/navigate by the user
-    - user interface is similar to that of other common UIs
-    - 
+  - user interface is similar to that of other common UIs
+  -
 - Maintainability of the system - System should be easy to maintain and update over time to ensure that it remains secure against new threats and vulnerabilities. (Security)
-    - Modularity - Components of system can be easily upgraded or replaced without affecting the whole system; thus, allowing for easy updates and maintenance.
+  - Modularity - Components of system can be easily upgraded or replaced without affecting the whole system; thus, allowing for easy updates and maintenance.
 - Performance/Efficiency - System should be able to withstand high traffic (data volume) and perform to its best capabilities
 - Reliable - Consistence performance according to its specifications with little to none issues and failures
 - The application should allow them to access data without needing an advanced understanding of the technology as would traditionally be required to access data from the IoT. Application allows users to take advantage of the IoT and the MQTT network in order to monitor sensors in BC Parks without the need for additional set up beyond account creation and the subscription to their data-streams of choice.
@@ -106,9 +112,9 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 1. View Sensor Data**
 
-**Primary actor:**  Client
+**Primary actor:** Client
 
-**Description:**  Process of a client setting up a widget with the data they want to monitor on their home page
+**Description:** Process of a client setting up a widget with the data they want to monitor on their home page
 
 **Pre-condition:** User must login and have a valid account, system must already be subscribed to sensor
 
@@ -136,11 +142,11 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 2. Create Account**
 
-**Primary actor:**  Client
+**Primary actor:** Client
 
-**Description:**  Process of creating an account to view/access the system 
+**Description:** Process of creating an account to view/access the system
 
-**Pre-conditions:**  The user must have access to the system's user interface and must not have an account in the system
+**Pre-conditions:** The user must have access to the system's user interface and must not have an account in the system
 
 **Post-condition:** The user’s account has been created and information is stored securely in the database.
 
@@ -166,11 +172,11 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 3. Login/Log out**
 
-**Primary actor:**  Client
+**Primary actor:** Client
 
-**Description:**  Allow user to log in and out of the IoT monitor sensor system
+**Description:** Allow user to log in and out of the IoT monitor sensor system
 
-**Pre-conditions:**  The user must have an account created on the system.
+**Pre-conditions:** The user must have an account created on the system.
 
 **Post-condition:** The user is logged out of the IoT monitor sensor system and cannot access the sensor data or perform any system functions until they log in again.
 
@@ -192,13 +198,13 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 4. Database Connectivity**
 
-**Primary actor:**  System admin
+**Primary actor:** System admin
 
-**Description:**  Process of connecting the IoT monitor sensor system to a database for data analysis and storage.
+**Description:** Process of connecting the IoT monitor sensor system to a database for data analysis and storage.
 
-**Pre-conditions:**  The system must be accessible on the machine and a database has been set up/configured to receive information from sensors. 
+**Pre-conditions:** The system must be accessible on the machine and a database has been set up/configured to receive information from sensors.
 
-**Post-condition:** The system is set up and through a connection to the database and is able to store and retrieve sensor data as needed. 
+**Post-condition:** The system is set up and through a connection to the database and is able to store and retrieve sensor data as needed.
 
 ### Main scenario:
 
@@ -212,15 +218,15 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ### Extensions:
 
-  5a. Database connection fails or is unable to connect
+5a. Database connection fails or is unable to connect
 
 5a1. System displays error connectivity message and system administrator troubleshoots connection details (database server address, and port number)
 
-7a. IoT monitor sensor system is unable to connect to the the database. 
+7a. IoT monitor sensor system is unable to connect to the the database.
 
 7a1. Display error and prompt admin to check network connectivity to ensure system communication with the database
 
-## **********************************Use Case 5. Remove Client**********************************
+## **\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***Use Case 5. Remove Client**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***
 
 **Primary actor:** Admin
 
@@ -246,9 +252,9 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 2.1 Further instructions after removal
 
-2.1.1 If the account removal is successful, the system should notify the user that their account has been removed and provide any instructions for new account 
+2.1.1 If the account removal is successful, the system should notify the user that their account has been removed and provide any instructions for new account
 
-## **********************************Use Case 6. IoT device connection**********************************
+## **\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***Use Case 6. IoT device connection**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***
 
 **Primary actor:** IoT Device
 
@@ -278,11 +284,11 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 7. Account Management**
 
-**Primary actor:**  Client
+**Primary actor:** Client
 
-**Description:**  Allow user to manage their account details such as username and password
+**Description:** Allow user to manage their account details such as username and password
 
-**Pre-conditions:**  The user must have an account created on the system.
+**Pre-conditions:** The user must have an account created on the system.
 
 **Post-condition:** The user has new account details that will be reflected in the database.
 
@@ -308,7 +314,7 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ## **Use Case 8. IoT Device Publishing of Data**
 
-**Primary actor:**  IoT Device
+**Primary actor:** IoT Device
 
 **Description:** Process of a broker establishing a connection with the IoT device so it can publish the data.
 
@@ -319,8 +325,8 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 ### Main scenario:
 
 1. IoT device generates the data based on its sensor readings.
-2. A connection is established between the IoT device and the central system uses a routing method/protocol such as MQTT 
-3. The system grabs that data and encodes it into a lightweight format for data storage/transmission such as JSON. 
+2. A connection is established between the IoT device and the central system uses a routing method/protocol such as MQTT
+3. The system grabs that data and encodes it into a lightweight format for data storage/transmission such as JSON.
 4. The system receives that data and stores it into the main database
 
 ### Extensions:
@@ -341,4 +347,4 @@ Our IoT Sensor Monitoring system is an application that allows users to take adv
 
 ### Client:
 
-The client is someone who’s interested in this particular sub-set of data from the IoT, is tech savvy, and has the desire to configure their own solution, and instead wants a curated picture of what a set of sensors has collected. 
+The client is someone who’s interested in this particular sub-set of data from the IoT, is tech savvy, and has the desire to configure their own solution, and instead wants a curated picture of what a set of sensors has collected.
